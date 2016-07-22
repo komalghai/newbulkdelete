@@ -1,7 +1,7 @@
 <?php
 
 	session_start();
-echo "<script>alert(2);</script>";
+echo "<script>alert(21);</script>";
 	//require __DIR__.'/vendor/autoload.php';
 	use phpish\shopify;
            echo "<script>alert(1);</script>";
