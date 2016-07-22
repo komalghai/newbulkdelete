@@ -2,8 +2,8 @@
 
 	session_start();
 echo "<script>alert(2);</script>";
-	require __DIR__.'/vendor/autoload.php';
-	//use phpish\shopify;
+	//require __DIR__.'/vendor/autoload.php';
+	use phpish\shopify;
            echo "<script>alert(1);</script>";
 	require __DIR__.'/conf.php';
 
