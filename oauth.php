@@ -1,9 +1,9 @@
 <?php
-
+error_reporting( E_ALL );
 	session_start();
 echo "<script>alert(211);</script>";
 	require __DIR__.'/vendor/autoload.php';
-	 error_reporting( E_ALL );
+	 
 	use phpish\shopify;
            echo "<script>alert(1);</script>";
 	require __DIR__.'/conf.php';
