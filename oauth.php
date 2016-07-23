@@ -5,7 +5,7 @@ error_reporting(-1);
 	session_start();
 echo "<script>alert(211);</script>";
 echo "path=".__DIR__;
-	require __DIR__.'/vendor/autoload.php';
+	require '/vendor/autoload.php';
 	 
 	use phpish\shopify;
            echo "<script>alert(1);</script>";
