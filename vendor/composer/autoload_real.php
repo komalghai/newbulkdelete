@@ -50,7 +50,8 @@ class ComposerAutoloaderInit4fc790f0213d4ef92afd1a4edc71b55b
         if ($useStaticLoader) {
             $includeFiles = Composer\Autoload\ComposerStaticInit4fc790f0213d4ef92afd1a4edc71b55b::$files;
         } else {
-            $includeFiles = require __DIR__ . '/autoload_files.php';
+           // $includeFiles = require __DIR__ . '/autoload_files.php';
+           $includeFiles = 'autoload_files.php';
         }
         foreach ($includeFiles as $fileIdentifier => $file) {
             composerRequire4fc790f0213d4ef92afd1a4edc71b55b($fileIdentifier, $file);
